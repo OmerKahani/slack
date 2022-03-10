@@ -68,8 +68,8 @@ type Msg struct {
 	LastRead        string       `json:"last_read,omitempty"`
 	Subscribed      bool         `json:"subscribed,omitempty"`
 	UnreadCount     int          `json:"unread_count,omitempty"`
-	replyUsers	[]string     `json:"reply_users,omitempty"`
-	replyUsersCount	int          `json:"reply_users_count,omitempty"`
+	ReplyUsers	[]string     `json:"reply_users,omitempty"`
+	ReplyUsersCount	int          `json:"reply_users_count,omitempty"`
 
 	// Message Subtypes
 	SubType string `json:"subtype,omitempty"`
